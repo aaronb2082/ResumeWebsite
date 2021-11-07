@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #532D3B;
+    background: -moz-radial-gradient(center, #532D3B 0%, #24312D 68%, #AE8E2C 100%);
+    background: -webkit-radial-gradient(center, #532D3B 0%, #24312D 68%, #AE8E2C 100%);
+    background: radial-gradient(ellipse at center, #532D3B 0%, #24312D 68%, #AE8E2C 100%);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+h1 {
+    background-color: white;
+    margin: 10px 20px;  
+    border-style: ridge;
+    border-color: #3C1874;
+    border-width: 5px;
+    border-radius: 10px;
+	display: flex;
+	padding: 10px;
+    overflow: hidden;
+}
+
+fieldset {
+	background-color: #d1d5d0;
+	margin: 30px;
+}
+
+.myButton {
+	color: rgb(0, 0, 0); font-size: 18px; line-height: 18px; padding: 11px; border-radius: 33px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(135deg, rgb(164, 164, 164) 0%, rgb(203, 203, 203) 56%, rgb(130, 127, 134) 100%); box-shadow: rgba(0, 0, 0, 0.83) 1px 0px 29px 15px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+	.myButton:hover {
+	background: #A4A4A4;
+	margin: 10px;	
+  
+  
+ }
+	.myButton:active {
+	background: #827F86; }
+

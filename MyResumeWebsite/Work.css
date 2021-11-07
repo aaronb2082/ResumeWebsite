@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(230, 206, 250);
+    text-align: left;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+body:hover {
+    background-color: blueviolet;
+}
+
+
+h1 {
+    text-align: center;
+}

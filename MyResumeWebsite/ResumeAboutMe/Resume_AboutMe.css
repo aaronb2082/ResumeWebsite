@@ -1,0 +1,75 @@
+body {
+    background: #AE8E2C;
+    background: -moz-linear-gradient(top, #AE8E2C 0%, #24312D 39%, #532D3B 100%);
+    background: -webkit-linear-gradient(top, #AE8E2C 0%, #24312D 39%, #532D3B 100%);
+    background: linear-gradient(to bottom, #AE8E2C 0%, #24312D 39%, #532D3B 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    border-style: ridge;
+    border-color: #3C1874;
+    border-width: 5px;
+    border-radius: 30px;
+    width: 50%;
+    background: #d1d5d0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+#container1 {
+    border-style: ridge;
+    border-color: #3C1874;
+    border-width: 5px;
+    border-radius: 200px;
+    margin: auto;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#container2 {
+    border-style: ridge;
+    border-color: #3C1874;
+    border-width: 5px;
+    border-radius: 200px;
+    
+    margin: auto;
+}
+
+
+footer {
+    background: white;
+    border-style: ridge;
+    border-color: #3C1874;
+    border-width: 5px;
+    border-radius: 30px;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    margin: 10px 250px;
+    font-size: 150%;
+    padding: 50px;
+}
+#map {
+   margin: 5px;
+   border-radius: 30px;
+   float: left;
+}
+
+#logo {
+    margin: 5px;
+    border-radius: 30px;
+    resize: both;
+    float: right;
+}
